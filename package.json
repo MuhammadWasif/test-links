@@ -1,18 +1,20 @@
 {
-  "name": "links-verifiy",
-  "version": "1.0.0",
-  "description": "",
+  "name": "test-links",
+  "version": "0.0.1",
+  "description": "A CLI tool to check for broken links in a webpage",
   "main": "index.js",
+  "bin": {
+    "test-links": "src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Muhammad Wasif",
   "license": "ISC",
   "dependencies": {
-    "bent": "^7.1.0",
     "chalk": "^3.0.0",
-    "cli-spinner": "^0.2.10",
     "jsdom": "^16.2.0",
+    "random-key": "^0.3.2",
     "request": "^2.88.2"
   }
 }
